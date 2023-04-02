@@ -31,38 +31,38 @@ const PaymentForm = () => {
               <h5>Total Amount</h5>
             </div>
           </Col>
-          <Col md={8} sm={8} xs={4}>
+          <Col md={8} sm={8} xs={8}>
             <Row>
-              <Col>
+              <Col sm={4} xs={4}>
                 <Card>
-                  <Card.Header as="h5" variant="primary">
+                  <Card.Header as="h5" variant="primary" style={{padding:"1px"}}>
                     7 Days
                   </Card.Header>
-                  <Card.Body>
-                    <Card.Text>7000 &#8377;</Card.Text>
+                  <Card.Body style={{padding:"1px"}}>
+                    <Card.Text>70000 &#8377;</Card.Text>
                     <Card.Text>700 &#8377;</Card.Text>
                     <Card.Title> 63000 &#8377;</Card.Title>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col>
+              <Col sm={4} xs={4}>
                 <Card>
-                  <Card.Header as="h5" variant="primary">
+                  <Card.Header as="h5" variant="primary" style={{padding:"1px"}}>
                     15 Days
                   </Card.Header>
-                  <Card.Body>
+                  <Card.Body style={{padding:"1px"}}>
                     <Card.Text>15000 &#8377;</Card.Text>
                     <Card.Text>1250 &#8377;</Card.Text>
                     <Card.Title> 12750 &#8377;</Card.Title>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col>
+              <Col sm={4} xs={4} >
                 <Card>
-                  <Card.Header as="h5" variant="primary">
+                  <Card.Header as="h5" variant="primary" style={{padding:"1px"}}>
                     30 Days
-                  </Card.Header>
-                  <Card.Body>
+                  </Card.Header >
+                  <Card.Body style={{padding:"1px"}}>
                     <Card.Text>30000 &#8377;</Card.Text>
                     <Card.Text>600 &#8377;</Card.Text>
                     <Card.Title> 240000 &#8377;</Card.Title>
